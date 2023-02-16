@@ -1,0 +1,21 @@
+{
+  "name": "codedropcc/disable-klarna-for-stripe-recurring-products",
+  "description": "This extension will disable Klarna payments when customer cart(basket) have product with stripe recurring product.",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "CodeDrop\\DisableKlarnaForStripeRecurringProducts\\": ""
+    }
+  },
+  "require": {
+    "php": "^7.4",
+    "magento/product-community-edition": "^2.4.0"
+  }
+}

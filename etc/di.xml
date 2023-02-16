@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Klarna\Kp\Model\Session">
+        <plugin name="disable_klarna_if_stripe_active" type="CodeDrop\DisableKlarnaForStripeRecurringProducts\Plugin\Kp\Model\Session" sortOrder="10"/>
+    </type>
+</config>
